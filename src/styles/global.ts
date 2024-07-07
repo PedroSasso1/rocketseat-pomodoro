@@ -18,9 +18,9 @@ export const GlobalStyle = createGlobalStyle`
   --webkit-font-smoothing: antialiased;
  }
 
-  border-style, input, text-area, button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-  }
+ body, input, text-area, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+ }  
 `
